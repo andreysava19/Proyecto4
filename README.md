@@ -12,13 +12,13 @@ Como se puede observar en la imagen se obtiene que la imagen recuperada es igual
 
 ![](imagenr.png)
 
-De las siguientes gráficas se tiene como primera curva "La onda cuadrada moduladora" (color rojo), como se espera la misma es una señal cuadra donde solo tiene dos posibles valores, debido a que se toma como 1's o 0's. Se elije arbitrariamente que cuando las portadoras tenga su respectivo valor positivo la moduladora será 1, caso contrario cuando las portadoras tenga un valor negativo, sea -1 o -3, la moduladora tendrá un valor de 0. En esta curva se nota que la misma transcurre la mayor cantidad del tiempo en bajo; se infiere que la mayor cantidad de señales tiene una de las dos portadoras negativas.
+De las siguientes gráficas se tiene como primera curva "La onda cuadrada moduladora" (color rojo), como se espera la misma es una señal cuadra con cuatro posibles valores, debido a que se toman -3, -1, 1 y 3. Se elije el valor de la moduladora respecto al valor que tenga la portadora, por lo tanto, se la portadora tiene un valor de -1 así mismo lo tendrá la moduladora. Los valores se asignan teniendo en cuenta los datos propuestos en la teoría.
 
 La segunda curva es "La señal modulada por 16-QAM" (color verde), se puede ver que es una curva muy bien definida sin ningún asomo de ruido, por lo tanro, la modulación obtenida con el modulador 16-QAM es excelente. Se observa en la tercera gráfica "La señal modulada al dejar el canal" (color azul). Se elije que la relación señal a ruido (SNR) se 10, a pesar de que es mayor la potencia de la señal, sigue siendo poca para poder eliminar el ruido; debido a esto es que se observa que la curva azul no está bien definida, sin embargo, a grandes rasgos se puede apreciar que dicha curva tiene un comportamiento similar al de la curva verde.
 
-Por último, se tiene la cuarta curva que es "La señal demodulada" (color magenta). En la función del demodulador en la sección "Criterio de decisión por detección de energía" se decide que los bits van a tomar el valor de la apmlitud definida para las portadoras, dicho de otra forma, si para la portadora 1 se tiene la combinación bit1=1 y bit2=2 la amplitud será 3, así mismo para todos los casos. Como consecuencia de los explicado es que se obtiene que la señal demodulada sea cuadrada. A grandes rasgos se observa que el comportamiento es similar al de la curva azul.
+Por último, se tiene la cuarta curva que es "La señal demodulada" (color magenta). En la función del demodulador en la sección "Criterio de decisión por detección de energía" se decide que los bits van a tomar el valor de la apmlitud definida para las portadoras, dicho de otra forma, si para la portadora 1 se tiene la combinación bit1=1 y bit2=2 la amplitud será 3, así mismo para todos los casos. Como consecuencia de los explicado es que se obtiene que la señal demodulada sea cuadrada. A grandes rasgos se observa que el comportamiento es similar al de la curva azul. Como consecuencia principal se observa que la señal demodulada es prácticamente igual a la onda cuadrada moduladora, exceptuando algunas amplitudes por ligeras diferencias debidas al ruido, no obstante, es un excelente resultado que se aprecia aún mejor en la imagen resultante.
 
-![](graficas.png)
+![](graficasc.png)
 
 
 ### 4.2. - Estacionaridad y ergodicidad
@@ -31,5 +31,5 @@ Como se observa en la gráfica "Realizaciones del proceso aleatorio", donde se t
 
 ### 4.3. - Densidad espectral de potencia
 
-
+En este gráfico se observa que la densidad espectral de potencia tiene su componente principal, donde está el ancho de banda de mayor importancia esta en entre 5000<t<6000 con un valor de 40000, y a su alrededor se encuentran los componentes de frecuencia de la moduladora, que conforme pasa el tiempo disminuyen debido a la discontinuidades de la función moduladora.
 ![](graficas3.png)
