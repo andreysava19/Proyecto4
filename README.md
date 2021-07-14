@@ -23,7 +23,11 @@ Por último, se tiene la cuarta curva que es "La señal demodulada" (color magen
 
 ### 4.2. - Estacionaridad y ergodicidad
 
+Como se observa en la gráfica "Realizaciones del proceso aleatorio", donde se tiene 16 posibles formas de onda asociadas a las 16 combinaciones de 4 bits que se muestran en la constelación. El resultado del promedio de realizaciones (línea negra) y el valor teórico (línea turquesa) presentan el mismo valor constante a lo largo de todo el rango de valores, se debe a que las realizaciones tiene un comporatamiento simétrico, esto ocasiona que la combinación de curvas respecto al eje horizontal sean identicas. Por lo tanto, en la señal modulada senal_Tx se afirma que hay ergodicidad.
+
 ![](graficas2.png)
+
+![](constelacion.png)
 
 ### 4.3. - Densidad espectral de potencia
 
